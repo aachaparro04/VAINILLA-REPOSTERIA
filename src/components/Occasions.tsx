@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 const occasions = [
   {
     title: "Regalos Especiales",
-    image: "https://images.unsplash.com/photo-1544480542-9500603c97be?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?q=80&w=800&auto=format&fit=crop",
     desc: "Sorprende a esa persona especial con un detalle que endulce su día."
   },
   {
