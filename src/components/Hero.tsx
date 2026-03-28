@@ -33,10 +33,10 @@ export default function Hero() {
           <span className="inline-block text-gold font-medium tracking-[0.2em] uppercase text-xs mb-4">
             Repostería Artesanal Familiar
           </span>
-          <h1 className="text-5xl md:text-7xl font-serif text-cacao mb-6 leading-[1.1] text-balance">
+          <h1 className="text-5xl md:text-7xl font-serif text-text-main mb-6 leading-[1.1] text-balance">
             Creamos momentos que se quedan en el <span className="italic">corazón</span>.
           </h1>
-          <p className="text-lg md:text-xl text-cacao/80 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+          <p className="text-lg md:text-xl text-text-main/80 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
             Postres premium elaborados con ingredientes de origen y el cuidado de una tradición familiar que celebra cada detalle.
           </p>
 
@@ -45,7 +45,7 @@ export default function Hero() {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               onClick={openWhatsApp}
-              className="w-full sm:w-auto px-8 py-4 bg-cacao text-vanilla rounded-full font-medium flex items-center justify-center gap-2 shadow-lg hover:bg-cacao/90 transition-colors"
+              className="w-full sm:w-auto px-8 py-4 bg-brand-pink text-text-main rounded-full font-medium flex items-center justify-center gap-2 shadow-lg hover:bg-brand-pink/90 transition-colors"
             >
               <MessageCircle size={20} />
               Ordenar ahora
@@ -54,7 +54,7 @@ export default function Hero() {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               onClick={scrollToProducts}
-              className="w-full sm:w-auto px-8 py-4 bg-transparent border border-cacao text-cacao rounded-full font-medium flex items-center justify-center gap-2 hover:bg-cacao/5 transition-colors"
+              className="w-full sm:w-auto px-8 py-4 bg-transparent border border-brand-pink text-text-main rounded-full font-medium flex items-center justify-center gap-2 hover:bg-brand-pink/10 transition-colors"
             >
               <ShoppingBag size={20} />
               Ver productos
@@ -65,7 +65,7 @@ export default function Hero() {
 
       {/* Decorative Elements */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-50">
-        <div className="w-[1px] h-12 bg-cacao"></div>
+        <div className="w-[1px] h-12 bg-brand-pink"></div>
       </div>
     </section>
   );

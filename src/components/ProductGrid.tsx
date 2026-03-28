@@ -47,7 +47,7 @@ export default function ProductGrid() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <span className="text-gold font-medium tracking-widest uppercase text-xs">Nuestra Selección</span>
-          <h2 className="text-4xl md:text-5xl font-serif text-cacao mt-2">Favoritos de la Casa</h2>
+          <h2 className="text-4xl md:text-5xl font-serif text-text-main mt-2">Favoritos de la Casa</h2>
           <div className="w-20 h-[1px] bg-gold mx-auto mt-6"></div>
         </div>
 
@@ -74,10 +74,10 @@ export default function ProductGrid() {
                     Producto Estrella
                   </div>
                 )}
-                <div className="absolute inset-0 bg-cacao/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <div className="absolute inset-0 bg-brand-pink/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <button
                     onClick={() => openWhatsApp(product.name)}
-                    className="bg-white text-cacao px-6 py-2 rounded-full font-medium text-sm shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+                    className="bg-white text-text-main px-6 py-2 rounded-full font-medium text-sm shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
                   >
                     Pedir ahora
                   </button>
@@ -86,15 +86,15 @@ export default function ProductGrid() {
 
               <div className="p-6">
                 <div className="flex justify-between items-start mb-2">
-                  <h3 className="text-xl font-serif text-cacao">{product.name}</h3>
+                  <h3 className="text-xl font-serif text-text-main">{product.name}</h3>
                   <span className="text-gold font-medium">{product.price}</span>
                 </div>
-                <p className="text-cacao/60 text-sm leading-relaxed mb-6 italic">
+                <p className="text-text-main/60 text-sm leading-relaxed mb-6 italic">
                   "{product.description}"
                 </p>
                 <button
                   onClick={() => openWhatsApp(product.name)}
-                  className="w-full py-3 border border-cream rounded-xl text-cacao text-sm font-medium flex items-center justify-center gap-2 hover:bg-cream transition-colors"
+                  className="w-full py-3 border border-cream rounded-xl text-text-main text-sm font-medium flex items-center justify-center gap-2 hover:bg-cream transition-colors"
                 >
                   <MessageCircle size={16} className="text-gold" />
                   Pedir por WhatsApp

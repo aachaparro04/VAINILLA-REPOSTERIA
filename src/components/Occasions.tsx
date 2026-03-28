@@ -24,7 +24,7 @@ export default function Occasions() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <span className="text-gold font-medium tracking-widest uppercase text-xs">Momentos Vainilla</span>
-          <h2 className="text-4xl md:text-5xl font-serif text-cacao mt-2">Perfecto para cada ocasión</h2>
+          <h2 className="text-4xl md:text-5xl font-serif text-text-main mt-2">Perfecto para cada ocasión</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -40,7 +40,7 @@ export default function Occasions() {
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-cacao/90 via-cacao/20 to-transparent flex flex-col justify-end p-8">
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-pink/90 via-brand-pink/20 to-transparent flex flex-col justify-end p-8">
                 <h3 className="text-2xl font-serif text-vanilla mb-2">{occ.title}</h3>
                 <p className="text-vanilla/80 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   {occ.desc}

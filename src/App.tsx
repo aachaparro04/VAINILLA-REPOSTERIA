@@ -17,7 +17,7 @@ import { MessageCircle } from "lucide-react";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-vanilla selection:bg-gold/30 selection:text-cacao">
+    <div className="min-h-screen bg-vanilla selection:bg-gold/30 selection:text-text-main">
       <Navbar />
       
       <main>
@@ -44,15 +44,15 @@ export default function App() {
               viewport={{ once: true }}
               className="max-w-2xl mx-auto"
             >
-              <h2 className="text-4xl md:text-5xl font-serif text-cacao mb-6">
+              <h2 className="text-4xl md:text-5xl font-serif text-text-main mb-6">
                 ¿Listo para endulzar tu día?
               </h2>
-              <p className="text-cacao/70 mb-10 text-lg">
+              <p className="text-text-main/70 mb-10 text-lg">
                 Haz tu pedido hoy y descubre por qué somos la repostería favorita de quienes celebran con el corazón.
               </p>
               <button
                 onClick={() => window.open('https://wa.me/573156871966?text=Hola! Quiero hacer un pedido.', '_blank')}
-                className="inline-flex items-center gap-3 bg-cacao text-vanilla px-10 py-5 rounded-full text-lg font-medium hover:bg-cacao/90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+                className="inline-flex items-center gap-3 bg-brand-pink text-text-main px-10 py-5 rounded-full text-lg font-medium hover:bg-brand-pink/90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
               >
                 <MessageCircle size={24} />
                 Pedir por WhatsApp

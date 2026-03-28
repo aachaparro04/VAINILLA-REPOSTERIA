@@ -41,8 +41,8 @@ export default function ValuePillars() {
               <div className="mb-6 flex justify-center transform group-hover:scale-110 transition-transform duration-300">
                 {pillar.icon}
               </div>
-              <h3 className="text-xl font-serif mb-3 text-cacao">{pillar.title}</h3>
-              <p className="text-cacao/70 text-sm leading-relaxed">
+              <h3 className="text-xl font-serif mb-3 text-text-main">{pillar.title}</h3>
+              <p className="text-text-main/70 text-sm leading-relaxed">
                 {pillar.description}
               </p>
             </motion.div>

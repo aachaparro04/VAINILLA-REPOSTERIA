@@ -5,8 +5,10 @@
   --font-sans: "Inter", sans-serif;
 
   --color-vanilla: #FDFBF7;
-  --color-cream: #F5F1E9;
-  --color-cacao: #4A3728;
+  --color-cream: #FFF5F7;
+  --color-brand-pink: #FFD1DC;
+  --color-brand-pink-soft: #FFF0F3;
+  --color-text-main: #3D2B2E;
   --color-gold: #C5A059;
   --color-gold-light: #D4B982;
 }
@@ -15,7 +17,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
   body {
-    @apply bg-vanilla text-cacao font-sans antialiased;
+    @apply bg-vanilla text-text-main font-sans antialiased;
   }
 
   h1, h2, h3, h4 {

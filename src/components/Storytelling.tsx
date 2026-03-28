@@ -31,10 +31,10 @@ export default function Storytelling() {
             className="w-full lg:w-1/2"
           >
             <span className="text-gold font-medium tracking-widest uppercase text-xs">Nuestra Historia</span>
-            <h2 className="text-4xl md:text-5xl font-serif text-cacao mt-4 mb-8 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif text-text-main mt-4 mb-8 leading-tight">
               De nuestra cocina familiar a tu mesa.
             </h2>
-            <div className="space-y-6 text-cacao/80 leading-relaxed font-light text-lg">
+            <div className="space-y-6 text-text-main/80 leading-relaxed font-light text-lg">
               <p>
                 Vainilla nació de un sueño compartido en una tarde de domingo, entre el aroma a canela y el calor de un horno que nunca descansaba. Lo que comenzó como un secreto familiar, hoy es nuestra forma de compartir amor con el mundo.
               </p>

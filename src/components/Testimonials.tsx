@@ -24,7 +24,7 @@ export default function Testimonials() {
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif text-cacao">Lo que dicen nuestros clientes</h2>
+          <h2 className="text-3xl md:text-4xl font-serif text-text-main">Lo que dicen nuestros clientes</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -38,11 +38,11 @@ export default function Testimonials() {
               className="p-8 rounded-2xl bg-vanilla border border-cream relative"
             >
               <Quote className="text-gold/20 absolute top-6 right-6" size={40} />
-              <p className="text-cacao/80 italic mb-6 relative z-10">
+              <p className="text-text-main/80 italic mb-6 relative z-10">
                 "{t.text}"
               </p>
               <div>
-                <p className="font-medium text-cacao">{t.author}</p>
+                <p className="font-medium text-text-main">{t.author}</p>
                 <p className="text-gold text-xs uppercase tracking-wider mt-1">{t.role}</p>
               </div>
             </motion.div>
