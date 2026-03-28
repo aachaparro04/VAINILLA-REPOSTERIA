@@ -4,13 +4,13 @@
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
 
-  --color-vanilla: #FDFBF7;
-  --color-cream: #FFF5F7;
+  --color-vanilla: #FFF9FA;
+  --color-cream: #FFF0F3;
   --color-brand-pink: #FFD1DC;
-  --color-brand-pink-soft: #FFF0F3;
-  --color-text-main: #3D2B2E;
-  --color-gold: #C5A059;
-  --color-gold-light: #D4B982;
+  --color-brand-pink-soft: #FFF5F7;
+  --color-text-main: #1A1A1A;
+  --color-gold: #D4AF37;
+  --color-gold-light: #F4CF6D;
 }
 
 @layer base {

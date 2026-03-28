@@ -20,7 +20,7 @@ export default function GeminiRecommender() {
         contents: `Actúa como un experto sommelier de postres para "VAINILLA Repostería". 
         Nuestros productos son: 
         1. Beso de Ángel (Vainilla, capas de crema, suave).
-        2. Tarta de Cacao Real (Chocolate 70%, almendras, sal).
+        2. Tarta de Chocolate Real (Chocolate premium, almendras, sal).
         3. Cheesecake de Frutos Rojos (Cremoso, moras y frambuesas).
         4. Éclair de Vainilla Bourbon (Masa choux, crema pastelera).
 
@@ -38,7 +38,7 @@ export default function GeminiRecommender() {
   };
 
   return (
-    <section className="py-24 bg-brand-pink-soft text-text-main overflow-hidden relative">
+    <section className="py-24 bg-brand-pink text-text-main overflow-hidden relative">
       {/* Decorative background */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-gold/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gold/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>

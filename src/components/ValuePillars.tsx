@@ -10,7 +10,7 @@ const pillars = [
   {
     icon: <Leaf className="text-gold" size={32} />,
     title: "Ingredientes Premium",
-    description: "Seleccionamos solo lo mejor: vainilla natural, cacao de origen y frutas frescas de temporada."
+    description: "Seleccionamos solo lo mejor: vainilla natural, chocolate premium y frutas frescas de temporada."
   },
   {
     icon: <Sparkles className="text-gold" size={32} />,

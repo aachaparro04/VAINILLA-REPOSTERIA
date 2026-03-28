@@ -20,7 +20,7 @@ export default function Hero() {
           className="w-full h-full object-cover scale-105"
           referrerPolicy="no-referrer"
         />
-        <div className="absolute inset-0 bg-vanilla/60 backdrop-blur-[2px]"></div>
+        <div className="absolute inset-0 bg-brand-pink/30 backdrop-blur-[1px]"></div>
       </div>
 
       <div className="container mx-auto px-6 relative z-10 text-center">

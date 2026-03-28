@@ -17,7 +17,7 @@ import { MessageCircle } from "lucide-react";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-vanilla selection:bg-gold/30 selection:text-text-main">
+    <div className="min-h-screen bg-brand-pink-soft selection:bg-gold/30 selection:text-text-main">
       <Navbar />
       
       <main>
@@ -36,7 +36,7 @@ export default function App() {
         <Testimonials />
 
         {/* Final CTA Section */}
-        <section className="py-24 bg-white text-center">
+        <section className="py-24 bg-brand-pink text-center">
           <div className="container mx-auto px-6">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -52,7 +52,7 @@ export default function App() {
               </p>
               <button
                 onClick={() => window.open('https://wa.me/573156871966?text=Hola! Quiero hacer un pedido.', '_blank')}
-                className="inline-flex items-center gap-3 bg-brand-pink text-text-main px-10 py-5 rounded-full text-lg font-medium hover:bg-brand-pink/90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+                className="inline-flex items-center gap-3 bg-white text-text-main px-10 py-5 rounded-full text-lg font-medium hover:bg-white/90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
               >
                 <MessageCircle size={24} />
                 Pedir por WhatsApp

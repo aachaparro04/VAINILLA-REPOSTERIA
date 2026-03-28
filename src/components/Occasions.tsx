@@ -20,7 +20,7 @@ const occasions = [
 
 export default function Occasions() {
   return (
-    <section className="py-24 bg-vanilla">
+    <section className="py-24 bg-brand-pink-soft">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <span className="text-gold font-medium tracking-widest uppercase text-xs">Momentos Vainilla</span>

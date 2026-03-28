@@ -12,8 +12,8 @@ const products = [
   },
   {
     id: 2,
-    name: "Tarta de Cacao Real",
-    description: "Intenso chocolate al 70% con una base crujiente de almendras y flor de sal.",
+    name: "Tarta de Chocolate Real",
+    description: "Intenso chocolate premium con una base crujiente de almendras y flor de sal.",
     price: "$14.000",
     image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
     featured: false
@@ -43,7 +43,7 @@ export default function ProductGrid() {
   };
 
   return (
-    <section id="productos" className="py-24 bg-vanilla">
+    <section id="productos" className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <span className="text-gold font-medium tracking-widest uppercase text-xs">Nuestra Selección</span>
